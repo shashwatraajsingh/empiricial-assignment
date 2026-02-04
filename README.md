@@ -565,18 +565,18 @@ The analyzer recognizes these Playwright test file patterns:
 7. Open a Pull Request
 
 ---
-## Ready-to-Run Commands:
+# Ready-to-Run Commands:
 
-# Run all impacted test files:
+## Run all impacted test files:
 
 ```bash
 npx playwright test tests/sessions.spec.ts tests/test-runs.spec.ts
 ```
-# Run specific tests by name (grep):
+## Run specific tests by name (grep):
 ```bash
 npx playwright test --grep "Test Name 1|Test Name 2"
 ```
-# Run only newly added tests:
+## Run only newly added tests:
 ```bash
 npx playwright test --grep "New Test Name"
 ```
